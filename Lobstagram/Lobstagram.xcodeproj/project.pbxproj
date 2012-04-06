@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F659A3152E8049005FC991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A2152E8049005FC991 /* UIKit.framework */; };
+		26F659A5152E8049005FC991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A4152E8049005FC991 /* Foundation.framework */; };
+		26F659A7152E8049005FC991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A6152E8049005FC991 /* CoreGraphics.framework */; };
+		26F659AD152E8049005FC991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26F659AB152E8049005FC991 /* InfoPlist.strings */; };
+		26F659AF152E8049005FC991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F659AE152E8049005FC991 /* main.m */; };
+		26F659B3152E8049005FC991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F659B2152E8049005FC991 /* AppDelegate.m */; };
+		26F659B6152E8049005FC991 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F659B5152E8049005FC991 /* FirstViewController.m */; };
+		26F659B8152E8049005FC991 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F659B7152E8049005FC991 /* first.png */; };
+		26F659BA152E8049005FC991 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F659B9152E8049005FC991 /* first@2x.png */; };
+		26F659BD152E8049005FC991 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F659BC152E8049005FC991 /* SecondViewController.m */; };
+		26F659BF152E8049005FC991 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F659BE152E8049005FC991 /* second.png */; };
+		26F659C1152E8049005FC991 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26F659C0152E8049005FC991 /* second@2x.png */; };
+		26F659C4152E8049005FC991 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F659C2152E8049005FC991 /* FirstViewController.xib */; };
+		26F659C7152E8049005FC991 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F659C5152E8049005FC991 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26F6599E152E8049005FC991 /* Lobstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lobstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F659A2152E8049005FC991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26F659A4152E8049005FC991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26F659A6152E8049005FC991 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26F659AA152E8049005FC991 /* Lobstagram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lobstagram-Info.plist"; sourceTree = "<group>"; };
+		26F659AC152E8049005FC991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26F659AE152E8049005FC991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F659B0152E8049005FC991 /* Lobstagram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lobstagram-Prefix.pch"; sourceTree = "<group>"; };
+		26F659B1152E8049005FC991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F659B2152E8049005FC991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F659B4152E8049005FC991 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		26F659B5152E8049005FC991 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		26F659B7152E8049005FC991 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		26F659B9152E8049005FC991 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		26F659BB152E8049005FC991 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		26F659BC152E8049005FC991 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		26F659BE152E8049005FC991 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		26F659C0152E8049005FC991 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		26F659C3152E8049005FC991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		26F659C6152E8049005FC991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F6599B152E8049005FC991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F659A3152E8049005FC991 /* UIKit.framework in Frameworks */,
+				26F659A5152E8049005FC991 /* Foundation.framework in Frameworks */,
+				26F659A7152E8049005FC991 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F65993152E8048005FC991 = {
+			isa = PBXGroup;
+			children = (
+				26F659A8152E8049005FC991 /* Lobstagram */,
+				26F659A1152E8049005FC991 /* Frameworks */,
+				26F6599F152E8049005FC991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26F6599F152E8049005FC991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F6599E152E8049005FC991 /* Lobstagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F659A1152E8049005FC991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F659A2152E8049005FC991 /* UIKit.framework */,
+				26F659A4152E8049005FC991 /* Foundation.framework */,
+				26F659A6152E8049005FC991 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26F659A8152E8049005FC991 /* Lobstagram */ = {
+			isa = PBXGroup;
+			children = (
+				26F659B1152E8049005FC991 /* AppDelegate.h */,
+				26F659B2152E8049005FC991 /* AppDelegate.m */,
+				26F659B4152E8049005FC991 /* FirstViewController.h */,
+				26F659B5152E8049005FC991 /* FirstViewController.m */,
+				26F659B7152E8049005FC991 /* first.png */,
+				26F659B9152E8049005FC991 /* first@2x.png */,
+				26F659BB152E8049005FC991 /* SecondViewController.h */,
+				26F659BC152E8049005FC991 /* SecondViewController.m */,
+				26F659BE152E8049005FC991 /* second.png */,
+				26F659C0152E8049005FC991 /* second@2x.png */,
+				26F659C2152E8049005FC991 /* FirstViewController.xib */,
+				26F659C5152E8049005FC991 /* SecondViewController.xib */,
+				26F659A9152E8049005FC991 /* Supporting Files */,
+			);
+			path = Lobstagram;
+			sourceTree = "<group>";
+		};
+		26F659A9152E8049005FC991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F659AA152E8049005FC991 /* Lobstagram-Info.plist */,
+				26F659AB152E8049005FC991 /* InfoPlist.strings */,
+				26F659AE152E8049005FC991 /* main.m */,
+				26F659B0152E8049005FC991 /* Lobstagram-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F6599D152E8049005FC991 /* Lobstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F659CA152E8049005FC991 /* Build configuration list for PBXNativeTarget "Lobstagram" */;
+			buildPhases = (
+				26F6599A152E8049005FC991 /* Sources */,
+				26F6599B152E8049005FC991 /* Frameworks */,
+				26F6599C152E8049005FC991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lobstagram;
+			productName = Lobstagram;
+			productReference = 26F6599E152E8049005FC991 /* Lobstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F65995152E8048005FC991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Mindgrub Technologies";
+			};
+			buildConfigurationList = 26F65998152E8048005FC991 /* Build configuration list for PBXProject "Lobstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26F65993152E8048005FC991;
+			productRefGroup = 26F6599F152E8049005FC991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F6599D152E8049005FC991 /* Lobstagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F6599C152E8049005FC991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F659AD152E8049005FC991 /* InfoPlist.strings in Resources */,
+				26F659B8152E8049005FC991 /* first.png in Resources */,
+				26F659BA152E8049005FC991 /* first@2x.png in Resources */,
+				26F659BF152E8049005FC991 /* second.png in Resources */,
+				26F659C1152E8049005FC991 /* second@2x.png in Resources */,
+				26F659C4152E8049005FC991 /* FirstViewController.xib in Resources */,
+				26F659C7152E8049005FC991 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F6599A152E8049005FC991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F659AF152E8049005FC991 /* main.m in Sources */,
+				26F659B3152E8049005FC991 /* AppDelegate.m in Sources */,
+				26F659B6152E8049005FC991 /* FirstViewController.m in Sources */,
+				26F659BD152E8049005FC991 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26F659AB152E8049005FC991 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F659AC152E8049005FC991 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26F659C2152E8049005FC991 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F659C3152E8049005FC991 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		26F659C5152E8049005FC991 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F659C6152E8049005FC991 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F659C8152E8049005FC991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26F659C9152E8049005FC991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F659CB152E8049005FC991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lobstagram/Lobstagram-Prefix.pch";
+				INFOPLIST_FILE = "Lobstagram/Lobstagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26F659CC152E8049005FC991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lobstagram/Lobstagram-Prefix.pch";
+				INFOPLIST_FILE = "Lobstagram/Lobstagram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F65998152E8048005FC991 /* Build configuration list for PBXProject "Lobstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F659C8152E8049005FC991 /* Debug */,
+				26F659C9152E8049005FC991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F659CA152E8049005FC991 /* Build configuration list for PBXNativeTarget "Lobstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F659CB152E8049005FC991 /* Debug */,
+				26F659CC152E8049005FC991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F65995152E8048005FC991 /* Project object */;
+}
