@@ -12,8 +12,8 @@
 
 @interface Photo : NSManagedObject
 
-@property (nonatomic, retain) NSDate * filename;
+@property (nonatomic, retain) NSData * photo;
 @property (nonatomic, retain) NSString * title;
-@property (nonatomic, retain) UNKNOWN_TYPE timestamp;
+@property (nonatomic, retain) NSDate *timestamp;
 
 @end

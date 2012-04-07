@@ -11,7 +11,7 @@
 
 @implementation Photo
 
-@dynamic filename;
+@dynamic photo;
 @dynamic title;
 @dynamic timestamp;
 

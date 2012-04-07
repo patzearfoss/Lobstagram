@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoSettingsViewController.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIActionSheetDelegate, UIImagePickerControllerDelegate, PhotoSettingsViewControllerDelegate, UINavigationControllerDelegate>
+{
+    NSArray *photos;
+}
+
+@property (weak, nonatomic) IBOutlet UITableView *photosTable;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
+- (IBAction)takePictureButtonTap:(id)sender;
+
 
 @end

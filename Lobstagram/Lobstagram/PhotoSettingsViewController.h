@@ -8,6 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@class Photo;
+@protocol PhotoSettingsViewControllerDelegate;
+
+@interface PhotoSettingsViewController : UIViewController <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *photoImageView;
+@property (weak, nonatomic) IBOutlet UITextField *titleTextField;
+@property (weak, nonatomic) IBOutlet UIButton *doneButton;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (weak, nonatomic) id<PhotoSettingsViewControllerDelegate> delegate; 
+@property (strong, nonatomic) UIImage *image;
+
+- (IBAction)doneButtonTap:(id)sender;
+
+@end
+
+@protocol PhotoSettingsViewControllerDelegate <NSObject>
+@required
+- (void)photoSettingsViewControllerDidCancel:(PhotoSettingsViewController *)controller;
+- (void)photoSettingsViewController:(PhotoSettingsViewController *)controller didSaveNewPhoto:(Photo *)photo;
 
 @end
