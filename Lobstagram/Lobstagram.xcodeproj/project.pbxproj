@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		261127C41530F81C00B653E9 /* redButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 261127C31530F81C00B653E9 /* redButton@2x.png */; };
 		261127C71530F82700B653E9 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 261127C61530F82700B653E9 /* redButton.png */; };
+		261127C915325E6F00B653E9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261127C815325E6F00B653E9 /* Twitter.framework */; };
 		26F659A3152E8049005FC991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A2152E8049005FC991 /* UIKit.framework */; };
 		26F659A5152E8049005FC991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A4152E8049005FC991 /* Foundation.framework */; };
 		26F659A7152E8049005FC991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A6152E8049005FC991 /* CoreGraphics.framework */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		261127C31530F81C00B653E9 /* redButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "redButton@2x.png"; sourceTree = "<group>"; };
 		261127C61530F82700B653E9 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		261127C815325E6F00B653E9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		26F6599E152E8049005FC991 /* Lobstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lobstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F659A2152E8049005FC991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26F659A4152E8049005FC991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261127C915325E6F00B653E9 /* Twitter.framework in Frameworks */,
 				26F659CE152E80DA005FC991 /* CoreData.framework in Frameworks */,
 				26F659A3152E8049005FC991 /* UIKit.framework in Frameworks */,
 				26F659A5152E8049005FC991 /* Foundation.framework in Frameworks */,
@@ -97,6 +100,7 @@
 		26F659A1152E8049005FC991 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				261127C815325E6F00B653E9 /* Twitter.framework */,
 				26F659CD152E80DA005FC991 /* CoreData.framework */,
 				26F659A2152E8049005FC991 /* UIKit.framework */,
 				26F659A4152E8049005FC991 /* Foundation.framework */,

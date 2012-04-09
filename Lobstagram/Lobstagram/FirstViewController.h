@@ -12,6 +12,7 @@
 @interface FirstViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIActionSheetDelegate, UIImagePickerControllerDelegate, PhotoSettingsViewControllerDelegate, UINavigationControllerDelegate>
 {
     NSArray *photos;
+    NSArray *imageCache;
 }
 
 @property (weak, nonatomic) IBOutlet UITableView *photosTable;
