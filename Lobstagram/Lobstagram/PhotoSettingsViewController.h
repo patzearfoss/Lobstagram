@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoFiltersViewController.h"
 
 @class Photo;
 @protocol PhotoSettingsViewControllerDelegate;
 
-@interface PhotoSettingsViewController : UIViewController <UITextFieldDelegate>
+@interface PhotoSettingsViewController : UIViewController <UITextFieldDelegate, PhotoFiltersViewControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *photoImageView;
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
@@ -21,6 +22,7 @@
 @property (strong, nonatomic) UIImage *image;
 
 - (IBAction)doneButtonTap:(id)sender;
+- (IBAction)filtersButtonTap:(id)sender;
 
 @end
 

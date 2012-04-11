@@ -11,6 +11,9 @@
 		261127C71530F82700B653E9 /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 261127C61530F82700B653E9 /* redButton.png */; };
 		261127C915325E6F00B653E9 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261127C815325E6F00B653E9 /* Twitter.framework */; };
 		262C6A3115351AE600DADC23 /* vertical_cloth.png in Resources */ = {isa = PBXBuildFile; fileRef = 262C6A3015351AE600DADC23 /* vertical_cloth.png */; };
+		262C6A36153522D500DADC23 /* PhotoFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262C6A34153522D500DADC23 /* PhotoFiltersViewController.m */; };
+		262C6A37153522D500DADC23 /* PhotoFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262C6A35153522D500DADC23 /* PhotoFiltersViewController.xib */; };
+		262C6A391535429500DADC23 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262C6A381535429500DADC23 /* CoreImage.framework */; };
 		26F659A3152E8049005FC991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A2152E8049005FC991 /* UIKit.framework */; };
 		26F659A5152E8049005FC991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A4152E8049005FC991 /* Foundation.framework */; };
 		26F659A7152E8049005FC991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F659A6152E8049005FC991 /* CoreGraphics.framework */; };
@@ -37,6 +40,10 @@
 		261127C61530F82700B653E9 /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
 		261127C815325E6F00B653E9 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		262C6A3015351AE600DADC23 /* vertical_cloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vertical_cloth.png; sourceTree = "<group>"; };
+		262C6A33153522D500DADC23 /* PhotoFiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoFiltersViewController.h; sourceTree = "<group>"; };
+		262C6A34153522D500DADC23 /* PhotoFiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoFiltersViewController.m; sourceTree = "<group>"; };
+		262C6A35153522D500DADC23 /* PhotoFiltersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoFiltersViewController.xib; sourceTree = "<group>"; };
+		262C6A381535429500DADC23 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		26F6599E152E8049005FC991 /* Lobstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lobstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F659A2152E8049005FC991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26F659A4152E8049005FC991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262C6A391535429500DADC23 /* CoreImage.framework in Frameworks */,
 				261127C915325E6F00B653E9 /* Twitter.framework in Frameworks */,
 				26F659CE152E80DA005FC991 /* CoreData.framework in Frameworks */,
 				26F659A3152E8049005FC991 /* UIKit.framework in Frameworks */,
@@ -102,6 +110,7 @@
 		26F659A1152E8049005FC991 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				262C6A381535429500DADC23 /* CoreImage.framework */,
 				261127C815325E6F00B653E9 /* Twitter.framework */,
 				26F659CD152E80DA005FC991 /* CoreData.framework */,
 				26F659A2152E8049005FC991 /* UIKit.framework */,
@@ -131,6 +140,9 @@
 				26F659D0152E830B005FC991 /* PhotoCell.h */,
 				26F659D1152E830B005FC991 /* PhotoCell.m */,
 				26F659D3152E832C005FC991 /* PhotoCell.xib */,
+				262C6A33153522D500DADC23 /* PhotoFiltersViewController.h */,
+				262C6A34153522D500DADC23 /* PhotoFiltersViewController.m */,
+				262C6A35153522D500DADC23 /* PhotoFiltersViewController.xib */,
 			);
 			path = Lobstagram;
 			sourceTree = "<group>";
@@ -221,6 +233,7 @@
 				261127C41530F81C00B653E9 /* redButton@2x.png in Resources */,
 				261127C71530F82700B653E9 /* redButton.png in Resources */,
 				262C6A3115351AE600DADC23 /* vertical_cloth.png in Resources */,
+				262C6A37153522D500DADC23 /* PhotoFiltersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +251,7 @@
 				26F659D2152E830B005FC991 /* PhotoCell.m in Sources */,
 				26F659D7152E85F9005FC991 /* Lobstagram.xcdatamodeld in Sources */,
 				26F659DF152E8726005FC991 /* Photo.m in Sources */,
+				262C6A36153522D500DADC23 /* PhotoFiltersViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
