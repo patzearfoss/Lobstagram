@@ -28,6 +28,22 @@
 
     //UIViewController *viewController2 = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     
+    // customize appearance
+//    UIColor *background = [UIColor colorWithPatternImage:[UIImage imageNamed:@"vertical_cloth.png"]];
+//    [[UIView appearance] setBackgroundColor:background];
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0.814 green:0.109 blue:0.083 alpha:1.000]];
+    
+    UIFont *navBarFont = [UIFont fontWithName:@"Palatino-BoldItalic" size:23.0];
+    NSDictionary *navBarTextProperties = [NSDictionary dictionaryWithObjectsAndKeys:navBarFont, UITextAttributeFont, nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:navBarTextProperties];
+        
+    [[UILabel appearanceWhenContainedIn:[UIButton class], nil] setTextColor:[UIColor whiteColor]];
+    [[UIButton appearance] setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    
+    UIFont *tableCellLabelFont = [UIFont fontWithName:@"Palatino-BoldItalic" size:17];
+    [[UILabel appearanceWhenContainedIn:[UITableViewCell class], nil] setFont:tableCellLabelFont];
+
     
     self.window.rootViewController = photosTableViewController;
     [self.window makeKeyAndVisible];
